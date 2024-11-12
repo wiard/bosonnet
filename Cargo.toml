@@ -1,0 +1,8 @@
+[package]
+name = "bosonnet"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Add dependencies here, e.g., serde = "1.0", async_std = "1.10"
+
