@@ -1,0 +1,28 @@
+# Rust-specific ignores
+target/
+**/*.rs.bk
+
+# Cargo files
+Cargo.lock
+/target/
+
+# Dependency directories
+/node_modules/
+/vendor/
+
+# Build files
+/build/
+*.o
+*.so
+*.dylib
+*.dll
+
+# MacOS system files
+.DS_Store
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
