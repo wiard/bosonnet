@@ -84,3 +84,22 @@ Bosonnet’s API allows external applications and users to interact with digital
 Some endpoints require an `auth_token` parameter for security and authorization purposes. This token should be obtained via a secure authentication method and passed in the request headers or parameters where specified.
 
 - **Example Header with Auth Token**:
+
+- 
+## Error Handling
+
+Each API endpoint returns a standardized error response with an HTTP status code and message:
+- **400 Bad Request**: Invalid parameters or request format.
+- **401 Unauthorized**: Missing or invalid authentication token.
+- **404 Not Found**: Resource does not exist.
+- **500 Internal Server Error**: System errors or failures.
+
+## Notes and Future Expansion
+
+- **New Endpoints**: Additional endpoints may be added in future releases to extend functionality.
+- **Rate Limiting**: Consider implementing rate limiting for high-traffic endpoints to ensure stable performance.
+
+---
+
+This API specification provides the foundational information needed to interact with Bosonnet’s layers programmatically. For further clarification, consult the development team or review the source code for each layer.
+
